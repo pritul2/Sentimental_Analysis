@@ -7,6 +7,7 @@ from nltk.tokenize import word_tokenize
 import string
 import nltk
 import twitter
+import pandas as pd
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -39,15 +40,18 @@ def Predict(texts):
         labels.append(1)
   return labels
 
+def uploaded_file(path):
+  df = pd.read_csv(path)
+  print(df.head())
 
-keyword = 'samsung'
-num_of_tweets = 10
-text = twitter.get_tweets(keyword,num_of_tweets)
-print("successfuly obtained tweets")
-prep_text = preprocess_texts(text)
-labels = Predict(prep_text)
+def fetch_tweets(keyword,num_of_tweets):
+  text = twitter.get_tweets(keyword,num_of_tweets)
+  
+  print("successfuly obtained tweets")
+  prep_text = preprocess_texts(text)
+  labels = Predict(prep_text)
 
-for i,j in zip(text,labels):
-  print(i)
-  print("\n\n")
-  print(j)
+  for i,j in zip(text,labels):
+    print(i)
+    print("\n\n")
+    print(j)

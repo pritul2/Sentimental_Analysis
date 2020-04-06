@@ -1,6 +1,7 @@
 from flask import Flask, make_response, request, send_file,render_template
 import os
 import pandas as pd
+import SentimentAnalysis
 app = Flask(__name__)
 
 
@@ -16,7 +17,7 @@ def excel():
 @app.route('/keyword.html', methods=['GET', 'POST'])
 def keyword():
 	if request.method == "POST":
-		print("@pritul",request.form['fetch_tweet'])
+		SentimentAnalysis.fetch_tweets(request.form['fetch_tweet'],10)
 		return render_template('keyword.html')
 	else:
 		return render_template("keyword.html")
@@ -31,11 +32,9 @@ def upload_route_summary():
 		print(f)
 		THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 		filename_path = os.path.join(THIS_FOLDER, f.filename)
-		print(filename_path)
-		sheet = pd.read_csv(filename_path)
-		print(sheet.head())
+		SentimentAnalysis.uploaded_file(filename_path)
 		return render_template('excel.html')
-		
+
 
 
 if __name__ == '__main__':
