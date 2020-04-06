@@ -9,10 +9,6 @@ import nltk
 import twitter
 import pandas as pd
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('vader_lexicon')
-
 def preprocess_texts(texts):
   preprocessed_text = []
   stop_words = stopwords.words('english')
@@ -55,5 +51,3 @@ def fetch_tweets(keyword,num_of_tweets):
     print(i)
     print("\n\n")
     print(j)
-
-fetch_tweets('modi',150)

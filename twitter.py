@@ -1,6 +1,10 @@
 import tweepy 
 from textblob import TextBlob
 import re
+access_key ='1025563697622786048-TdUHAZE6d3UO3tOJfdm4QgWbKHt2xw'
+access_secret='Y1tfYG2QipeV4oNGmOjCAinyhprrGjzJwSxknfvgG8MEU'
+consumer_key = 'ySnXmMkdA3OyhdYqfKepYTpIR'
+consumer_secret = 'sU1wZGkukA2JzANEFd0EZZx2AGm04fMzGv1E9YmRmqegbuhJaL'
 
 # Function to extract tweets 
 def clean_tweet(tweet): 

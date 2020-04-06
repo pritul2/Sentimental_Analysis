@@ -72,8 +72,10 @@
         <div class="input-group" style="margin-top: 20px">
           <span class="input-group-addon" id="basic-addon1">@</span>
           <from class="form-group" action="keyword.html" method="post">
-            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="bottom" title="Please enter keywords starting with '@' and use ',' as seprater." style="width: 90%">
-            <input type="submit" class="btn btn-info" id="submit">
+            <form action="keyword.html" method="POST">
+            <input type="text" name="fetch_tweet" class="form-control" placeholder="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="bottom" title="Please enter keywords starting with '@' and use ',' as seprater." style="width: 90%">
+            <input type="submit" class="btn btn-info"id="fetch_tweet"value="fetch_tweet" id="submit">
+        </form>
             </from>
         </div>
     </div>
