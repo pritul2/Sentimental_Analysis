@@ -45,13 +45,15 @@ def uploaded_file(path):
   print(df.head())
 
 def fetch_tweets(keyword,num_of_tweets):
-  text = twitter.get_tweets(keyword,num_of_tweets)
-  
+  time_stamp,location_list,twitter_user,tweet_list = twitter.get_tweets(keyword,num_of_tweets)
   print("successfuly obtained tweets")
-  prep_text = preprocess_texts(text)
+  prep_text = preprocess_texts(tweet_list)
   labels = Predict(prep_text)
-
-  for i,j in zip(text,labels):
+  df = pd.DataFrame(list(zip(time_stamp,location_list,twitter_user,tweet_list, labels)), columns =['time_stamp','location','user name','text', 'val'])
+  df.to_csv('file.csv',index=False)
+  for i,j in zip(tweet_list,labels):
     print(i)
     print("\n\n")
     print(j)
+
+fetch_tweets('modi',150)
