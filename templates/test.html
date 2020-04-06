@@ -1,0 +1,161 @@
+<html>
+<head>
+    
+   <title>#</title>
+    
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <!--<link rel="shortcut icon" type="image/png" href="image/shortcut.png">-->
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+   <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    
+   <script type="text/javascript">
+    
+        function Display()
+        { 
+            document.getElementById("one").innerHTML = '<button type="button" class="btn btn-info" id="1" onclick="return Send1()">Click Here</button>';
+            document.getElementById("two").innerHTML = '<button type="button" class="btn btn-info" id="2" onclick="return Send2()">Click Here</button>';
+            document.getElementById("three").innerHTML = '<button type="button" class="btn btn-info" id="3" onclick="return Send3()">Click Here</button>';
+        }
+       
+        function Display1()
+        {
+            document.getElementById("div3").style.display = "none";
+            document.getElementById("one").innerHTML = '<img src="tick.png" width="30px" height="30px">';
+        }
+       
+        function Display2()
+        {
+            document.getElementById("one").innerHTML = '<img src={{url_for('static', filename='1.png')}}>';
+            document.getElementById("two").innerHTML = '<img src="tick.png" width="30px" height="30px">';
+        }
+       
+        function Display3()
+        {
+            document.getElementById("one").innerHTML = '<img src="tick.png" width="30px" height="30px">';
+            document.getElementById("two").innerHTML = '<img src="tick.png" width="30px" height="30px">';
+            document.getElementById("three").innerHTML = '<img src="tick.png" width="30px" height="30px">';
+            Display();
+        }
+        
+        function Send1()
+        {
+           window.location.replace("./excel.html");
+           return false;
+        }
+       
+        function Send2()
+        {
+           window.location.replace("./keyword.html");
+           return false;
+        }
+       
+        function Send3()
+        {
+           window.location.replace("./graph.html");
+           return false;
+        }
+       
+        var queryString = "";
+        window.onload = function(){
+        if(queryString.length == 0) 
+        {
+               if(window.location.search.split('?').length > 1)
+               {
+                   var key = decodeURIComponent(window.location.search.split('=')[1]);
+                   queryString = queryString + key;
+               }
+        }
+        if(queryString == "1") 
+        {   
+            Display1();
+        }
+        if(queryString == "2") 
+        {   
+            Display2();
+        }
+        if(queryString == "3")
+        {
+            Display3();        
+        }
+        if(queryString == "")
+        {
+            Display();
+        }
+        };
+           
+    </script>
+    
+    
+    <style>
+        .navbar-header{
+            margin-left:5px;
+            width:100%;
+        }
+    </style>
+    
+</head>
+
+<body style="background-color: whitesmoke">    
+
+    <!--Navbar starts here-->   
+    <nav class="navbar navbar-inverse" style="background-color: white;border-color: floralwhite">    
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+                <a class="navbar-brand" href="index"><i class="fas fa-desktop"></i> Admin Dashboard </a>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="float:right;margin-top:8px">
+                    <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+                </form>
+        </div>
+     </div>
+    </nav>
+    <!--Navbar Ends-->    
+
+
+    <!--Sidebar Starts-->
+    <div class="col-sm-3 col-md-2 sidebar" style="background-color: white;height:605px;margin-top: -20px;border-right-color: ghostwhite">
+        <ul class="nav nav-sidebar">
+            <li><a href="dataanalysis.html"><i class="glyphicon glyphicon-signal" style="padding-right: 5px"></i>Data Analysis</a></li>
+            <li><a href="pastdata.html"><i class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></i>Past Reports</a></li>
+            <li><a href="about.html"><i class="glyphicon glyphicon-user" style="padding-right: 5px"></i>About</a></li>
+            <li><a href="contact.html"><i class="glyphicon glyphicon-pencil" style="padding-right: 5px"></i>Contact Us</a></li>
+            <p style="margin-top: 420px;color: black;font-size: 10px">@CopyRights-2020</p>
+        </ul>
+    </div>
+    <!--Sidebar Ends-->
+
+    
+    <div class="span2 well" style="width:400px;float: left;margin-left: 80px;margin-top: 100px;width: 22%;background-color: white" id="div1">
+        <img class="card-img-top" src="{{url_for('static', filename='1.png')}}" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">STEP-1</h4>
+          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          <center id="one"><button type="button" class="btn btn-info" id="1" onclick="return Send1()">Click Here</button></center>
+        </div>
+    </div>
+    
+    <div class="span2 well" style="width:400px;float: left;margin-left: 30px;margin-top: 100px;width: 22%;background-color: white" id="div2">
+        <img class="card-img-top" src="{{url_for('static', filename='2.png')}}" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">STEP-2</h4>
+          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          <center id="two"><button type="button" class="btn btn-info" id="2" onclick="return Send2()">Click Here</button></center>
+        </div>
+    </div>
+    
+    <div class="span2 well" style="width:400px;float: left;margin-left: 30px;margin-top: 100px;width: 22%;background-color: white" id="div3">
+        <img class="card-img-top" src="{{url_for('static', filename='3.png')}}" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">STEP-3</h4>
+          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          <center id="three"><button type="button" class="btn btn-info" id="3" onclick="return Send3()">Click Here</button></center>
+        </div>
+    </div>
+    
+</body>
+</html>

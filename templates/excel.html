@@ -1,0 +1,198 @@
+<html>
+<head>
+     
+  <title>Data Upload</title>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+      
+  <!--<link rel="shortcut icon" type="image/png" href="image/shortcut.png">-->
+    
+  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    
+  <style>
+    .navbar-header{
+        margin-left:5px;
+        width:100%;
+    }
+  </style>
+     
+     
+  <script>
+   
+    $(document).ready(function(){
+        $("#excel").hide();
+        $("#twitter").hide();
+    });
+           
+    function Send()
+    {
+        var url = "./test.html?name=" + encodeURIComponent('1');
+        window.location.href = url;
+        return false;
+    }
+     
+  </script>
+     
+ </head>
+ <body>
+  
+     
+    <!--Navbar starts here-->   
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: white;border-color: floralwhite">    
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+                <a class="navbar-brand" href="index"><i class="fas fa-desktop"></i> Admin Dashboard </a>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="float:right;margin-top:8px">
+                    <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+                </form>
+        </div>
+     </div>
+    </nav>
+    <!--Navbar Ends-->    
+
+
+    <!--Sidebar Starts-->
+    <div class="col-sm-3 col-md-2 sidebar" style="background-color: white;height:605px;border-right-color: ghostwhite;position: fixed">
+        <ul class="nav nav-sidebar">
+            <li><a href="dataanalysis.html"><i class="glyphicon glyphicon-signal" style="padding-right: 5px"></i>Data Analysis</a></li>
+            <li><a href="pastdata.html"><i class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></i>Past Reports</a></li>
+            <li><a href="about.html"><i class="glyphicon glyphicon-user" style="padding-right: 5px"></i>About</a></li>
+            <li><a href="contact.html"><i class="glyphicon glyphicon-pencil" style="padding-right: 5px"></i>Contact Us</a></li>
+            <p style="margin-top: 420px;color: black;font-size: 10px">@CopyRights-2020</p>
+        </ul>
+    </div>
+    <!--Sidebar Ends-->
+     
+     
+     
+  <div class="container" style="margin-top: 50px;margin-left: 230px">
+    <div class="custom-file mb-3">    
+       <label class="custom-file-label" for="customFile"><h2>Upload Your File</h2></label>
+        <from class="form-group" action="excel.html" method="post">
+          <form action="upload.html" method="post" enctype="multipart/form-data">
+            <br/>
+            <input type="file" class="custom-file-input" id="customFile"name="fileupload"class="btn btn-info" id="fileToUpload">
+            <br/>
+            <input type="submit" class="custom-file-input" id="customFile" value="Upload File"class="btn btn-info" name="submit">
+            </form>
+        <!--<div class="table-responsive">-->
+          <br/>
+        </from>
+          <div align="center">
+                <button type="button" class="btn btn-info" id="next" onclick="return Send()">Next</button>
+          </div>
+            
+        </div>
+        <br/>
+        <div class="table-responsive">
+            <div id="table">
+            </div>
+        </div>
+  </div>
+  <script>
+        <!--<div class="table-responsive">-->
+          <br/>
+          <div align="center">
+                <input type="submit" value="LoadData" name="load_data" id="load_data" class="btn btn-info">
+          </div>
+        </from>
+          <br/>
+          <div align="center">
+                <button type="button" class="btn btn-info" id="next" onclick="return Send()">Next</button>
+          </div>
+            
+        </div>
+        <br/>
+        <div class="table-responsive">
+            <div id="table">
+            </div>
+        </div>
+  
+
+    <div class="custom-file mb-3" id="twitter">    
+        <from class="form-group" action="" method="post">
+            Required Input
+        </from>
+        <br/>
+          <div align="center">
+                <button type="button" class="btn btn-info" id="next" onclick="return Send()">Next</button>
+          </div>
+            
+        </div>
+  </div>
+
+     
+  <script>
+      
+    $("#upload").click(function(){
+       $("#excel").show();
+       $("#pageheading").hide();
+       $("#pagebutton").hide();
+       $("#next").hide();
+    });
+      
+    $("#api").click(function(){
+       $("#twitter").show();
+       $("#pageheading").hide();
+       $("#pagebutton").hide();
+       $("#next").hide();
+    });
+    
+    $("#customFile").click(function(){
+        $("#load_data").show();
+    });
+    
+    $("#load_data").click(function(){
+        $("#next").show();
+    });
+    
+    var fil = "";
+    
+    $('#load_data').click(function(){
+       fil = fil + document.getElementById("customFile").files[0].name;
+       console.log(document.getElementById("customFile").files[0]);
+    });
+    
+    
+    $(document).ready(function(){
+     $('#load_data').click(function(){
+      $.ajax({
+       url:fil,
+       dataType:"text",
+       success:function(data){
+        var data = data.split(/\r?\n|\r/);
+        var table_data = '<table class="table table-bordered table-striped">';
+        for(var count = 0; count<data.length; count++)
+        {
+         var cell_data = data[count].split(",");
+         table_data += '<tr>';
+         for(var cell_count=0; cell_count<cell_data.length; cell_count++)
+         {
+          if(count === 0)
+          {
+           table_data += '<th>'+cell_data[cell_count]+'</th>';
+          }
+          else
+          {
+           table_data += '<td>'+cell_data[cell_count]+'</td>';
+          }
+         }
+         table_data += '</tr>';
+        }
+        table_data += '</table>';
+        $('#table').html(table_data);
+       }
+      });
+     });
+    });
+    
+ </script>
+      
+</body>
+</html>

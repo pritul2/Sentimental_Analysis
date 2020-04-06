@@ -1,0 +1,83 @@
+<html>
+<head>
+   
+
+    <title>Analysis</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      
+    <!--<link rel="shortcut icon" type="image/png" href="image/shortcut.png">-->
+    
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    
+    <style>
+          
+          .navbar-header{
+            margin-left:5px;
+            width:100%;
+          }
+        
+    </style>
+      
+    <script>
+    
+    function Send()
+    {
+        var url = "./test.html?name=" + encodeURIComponent('3');
+        document.getElementById("2").onclick = function(){
+            url = "./test.html";
+        }
+        window.location.href = url;
+        return false;
+    }
+        
+    </script>
+    
+</head>
+<body>
+
+    <!--Navbar starts here-->   
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: white;border-color: floralwhite">    
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+                <a class="navbar-brand" href="index"><i class="fas fa-desktop"></i> Admin Dashboard </a>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="float:right;margin-top:8px">
+                    <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+                </form>
+        </div>
+     </div>
+    </nav>
+    <!--Navbar Ends-->    
+
+
+    <!--Sidebar Starts-->
+    <div class="col-sm-3 col-md-2 sidebar" style="background-color: white;height:605px;border-right-color: ghostwhite;position: fixed;margin-top: 50px">
+        <ul class="nav nav-sidebar">
+            <li><a href="dataanalysis.html"><i class="glyphicon glyphicon-signal" style="padding-right: 5px"></i>Data Analysis</a></li>
+            <li><a href="pastdata.html"><i class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></i>Past Reports</a></li>
+            <li><a href="about.html"><i class="glyphicon glyphicon-user" style="padding-right: 5px"></i>About</a></li>
+            <li><a href="contact.html"><i class="glyphicon glyphicon-pencil" style="padding-right: 5px"></i>Contact Us</a></li>
+            <p style="margin-top: 420px;color: black;font-size: 10px">@CopyRights-2020</p>
+        </ul>
+    </div>
+    <!--Sidebar Ends-->
+
+    <div class="span2 well" style="width:400px;float: left;margin-left: 400px;margin-top: 100px;width: 50%;background-color: white" id="div2">
+        <img class="card-img-top" src="chart3.jpeg" alt="Card image" style="width:100%;height:400px">
+        <div class="card-body">
+          <h4 class="card-title">John Doe</h4>
+          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          <center>
+              <button type="button" class="btn btn-info" id="1" onclick="return Send()">Save</button>   
+              <button type="button" class="btn btn-info" id="2" onclick="return Send()">Cancel</button>
+         </center>
+        </div>
+    </div>
+
+</body>
+</html>

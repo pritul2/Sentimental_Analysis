@@ -1,0 +1,26 @@
+<html>
+<head>
+
+<script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
+        
+
+    
+</head>
+<body>
+
+<div id='mydiv'></div>    
+    
+</body>    
+
+<script>
+
+var mydiv = document.getElementById('mydiv');
+var data = { x : [ 1,2,3,4,5 ],
+             y : [ 1,2,4,8,16 ]};
+var trace = [data];
+Plotly.plot( mydiv,trace );   
+
+</script>
+
+
+</html>

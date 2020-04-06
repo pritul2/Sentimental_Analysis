@@ -1,0 +1,100 @@
+<html>
+<head>
+   
+
+    <title>Past Analysis</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      
+    <!--<link rel="shortcut icon" type="image/png" href="image/shortcut.png">-->
+    
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <style>
+          
+          .navbar-header{
+            margin-left:5px;
+            width:100%;
+          }
+        
+    </style>
+      
+</head>
+<body>
+
+    <!--Navbar starts here-->   
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: white;border-color: floralwhite">    
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+                <a class="navbar-brand" href="index"><i class="fas fa-desktop"></i> Admin Dashboard </a>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="float:right;margin-top:8px">
+                    <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+                </form>
+        </div>
+     </div>
+    </nav>
+    <!--Navbar Ends-->    
+
+
+    <!--Sidebar Starts-->
+    <div class="col-sm-3 col-md-2 sidebar" style="background-color: white;height:605px;border-right-color: ghostwhite;position: fixed;margin-top:50px">
+        <ul class="nav nav-sidebar">
+            <li><a href="dataanalysis.html"><i class="glyphicon glyphicon-signal" style="padding-right: 5px"></i>Data Analysis</a></li>
+            <li><a href="pastdata.html"><i class="glyphicon glyphicon-list-alt" style="padding-right: 5px"></i>Past Reports</a></li>
+            <li><a href="about.html"><i class="glyphicon glyphicon-user" style="padding-right: 5px"></i>About</a></li>
+            <li><a href="contact.html"><i class="glyphicon glyphicon-pencil" style="padding-right: 5px"></i>Contact Us</a></li>
+            <p style="margin-top: 420px;color: black;font-size: 10px">@CopyRights-2020</p>
+        </ul>
+    </div>
+    <!--Sidebar Ends-->
+    
+    <div class="container" style="margin-left: 180px">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox" style="background-color: white">
+            <div class="item active">
+                <center>
+                <img class="card-img-top" src="chart1.jpeg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                <img class="card-img-top" src="chart2.jpeg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                </div>
+                </center>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+
+
+</body>
+</html>
