@@ -72,30 +72,21 @@
      
      
   <div class="container" style="margin-top: 50px;margin-left: 230px">
-    <div class="custom-file mb-3">    
-       <label class="custom-file-label" for="customFile"><h2>Upload Your File</h2></label>
+    <div class="page-header" id="pageheading">
+        <h1>Choose Your Option</h1>
+    </div> 
+      
+    <div align="center" id="pagebutton">
+        <button type="button" class="btn btn-info" id="upload">Upload Your CSV File</button>
+        <button type="button" class="btn btn-info" id="api">Fetch Data From Twiiter</button>
+    </div>
+        
+    <div class="custom-file mb-3" id="excel">    
         <from class="form-group" action="excel.html" method="post">
-          <form action="upload.html" method="post" enctype="multipart/form-data">
-            <br/>
-            <input type="file" class="custom-file-input" id="customFile"name="fileupload"class="btn btn-info" id="fileToUpload">
-            <br/>
-            <input type="submit" class="custom-file-input" id="customFile" value="Upload File"class="btn btn-info" name="submit">
-            </form>
-        <!--<div class="table-responsive">-->
-          <br/>
-        </from>
-          <div align="center">
-                <button type="button" class="btn btn-info" id="next" onclick="return Send()">Next</button>
-          </div>
-            
-        </div>
-        <br/>
-        <div class="table-responsive">
-            <div id="table">
-            </div>
-        </div>
-  </div>
-  <script>
+        
+          <label class="custom-file-label" for="customFile"><h2>Upload Your File</h2></label>
+          <input type="file" class="custom-file-input" id="customFile" name="filename">
+
         <!--<div class="table-responsive">-->
           <br/>
           <div align="center">
@@ -116,8 +107,12 @@
   
 
     <div class="custom-file mb-3" id="twitter">    
-        <from class="form-group" action="" method="post">
-            Required Input
+        <from class="form-group" action="excel.html" method="post">
+            <input type="text" name="" id="" class="form-control" placeholder="Enter No. of Tweets" aria-describedby="basic-addon1">
+            <br/>
+            <div align="center">
+                <input type="submit" class="btn btn-info" id="" value="submit" name="">
+            </div>
         </from>
         <br/>
           <div align="center">
