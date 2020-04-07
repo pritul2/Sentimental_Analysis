@@ -118,10 +118,10 @@
     </div>
         
     <div class="custom-file mb-3" id="excel" style="display: none">    
-        <form class="form-group" method="post">
+        <form class="form-group"action="excel.html" method="post" enctype="multipart/form-data">
         
           <label class="custom-file-label" for="customFile"><h2>Upload Your File</h2></label>
-          <input type="file" class="custom-file-input" id="customFile" name="filename">
+          <input type="file" class="custom-file-input" id="customFile" name="fileupload">
 
         <!--<div class="table-responsive">-->
           <br/>
@@ -143,12 +143,12 @@
   
 
     <div class="custom-file mb-3" id="twitter" style="display: none">    
-        <form class="form-group" method="post">
+        <form action="tweet.html" class="form-group" method="post">
             <h1>Enter Twitter Details</h1>
-            <input type="text" class="form-control" placeholder="Enter No. of Tweets" aria-describedby="basic-addon1" style="width:90%">
+            <input type="text" class="form-control"name="fetch_tweet_num" placeholder="Enter No. of Tweets" aria-describedby="basic-addon1" style="width:90%">
             <br/>
             <div align="center">
-                <input type="submit" class="btn btn-info" id="" value="submit">
+                <input type="submit" class="btn btn-info" id="new" value="submit">
             </div>
         </form>
         <br/>
