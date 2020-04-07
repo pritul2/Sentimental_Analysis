@@ -6,7 +6,7 @@ app = Flask(__name__)
 SIZE=0
 
 @app.route('/')
-@app.route('/test')
+@app.route('/test.html')
 def test():
    return render_template('test.html')
 
@@ -17,6 +17,9 @@ def excel():
 @app.route('/keyword.html', methods=['GET', 'POST'])
 def keyword():
 	if request.method == "POST":
+		global SIZE
+		print(SIZE)
+		input("skjvnksdjvn")
 		SentimentAnalysis.fetch_tweets(request.form['fetch_tweet'],SIZE)
 		return render_template('keyword.html')
 	else:
@@ -35,14 +38,21 @@ def upload_route_summary():
 		return render_template('excel.html')
 
 
-@app.route('/tweet_num.html',methods=['GET', 'POST'])
+@app.route('/tweet.html',methods=['GET', 'POST'])
 def tweets_number():
 	if request.method == 'POST':
-
+		global SIZE
 		# Create variable for uploaded file
 		f = request.form['fetch_tweet_num']
 		SIZE=f
-		return render_template('excel.html')
+		print(SIZE)
+		return render_template('excel1.html')
+
+@app.route('/pastdata.html')
+def contact():
+	return "hello world"
+
+
 
 if __name__ == '__main__':
    app.run(debug = True)

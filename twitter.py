@@ -22,7 +22,8 @@ def deEmojify(text):
     else:
         return None
 def get_tweets(keyword,_size): 
-          
+        print(_size)
+        input("pritul")
         # Authorization to consumer key and consumer secret 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
   
@@ -36,7 +37,7 @@ def get_tweets(keyword,_size):
         time_stamp = []
         twitter_user = []
 
-        for tweet in api.search(q=keyword, lang="en", rpp=_size,tweet_mode='extended',count=1000):
+        for tweet in api.search(q=keyword, lang="en", rpp=_size,tweet_mode='extended',count=_size):
             
             temp = tweet.entities['user_mentions']
             if len(temp)<=0 or tweet.user.location==" ":

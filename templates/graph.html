@@ -23,17 +23,21 @@
     </style>
       
     <script>
-    
     function Send()
     {
-        var url = "./test.html?name=" + encodeURIComponent('3');
-        document.getElementById("2").onclick = function(){
-            url = "./test.html";
+        var final_url = "";
+        if( document.getElementById("2").onclick == True)
+        {
+            final_url += {% url 'test' %};
         }
-        window.location.href = url;
+        else
+        {
+            var url = {% url 'test' %};
+            final_url += url + "?name=" + encodeURIComponent('3');
+        }
+        window.location.href = final_url;
         return false;
     }
-        
     </script>
     
 </head>

@@ -29,20 +29,20 @@
         function Display1()
         {
             document.getElementById("div3").style.display = "none";
-            document.getElementById("one").innerHTML = '<img src="tick.png" width="30px" height="30px">';
+            document.getElementById("one").innerHTML = '<img src="{{url_for('static', filename='tick.png')}}" width="30px" height="30px">';
         }
        
         function Display2()
         {
-            document.getElementById("one").innerHTML = '<img src={{url_for('static', filename='1.png')}}>';
-            document.getElementById("two").innerHTML = '<img src="tick.png" width="30px" height="30px">';
+            document.getElementById("one").innerHTML = '<img src="{{url_for('static', filename='tick.png')}}"  width="30px" height="30px">';
+            document.getElementById("two").innerHTML = '<img src="{{url_for('static', filename='tick.png')}}" width="30px" height="30px">';
         }
        
         function Display3()
         {
-            document.getElementById("one").innerHTML = '<img src="tick.png" width="30px" height="30px">';
-            document.getElementById("two").innerHTML = '<img src="tick.png" width="30px" height="30px">';
-            document.getElementById("three").innerHTML = '<img src="tick.png" width="30px" height="30px">';
+            document.getElementById("one").innerHTML = '<img src="{{url_for('static', filename='tick.png')}}" width="30px" height="30px">';
+            document.getElementById("two").innerHTML = '<img src="{{url_for('static', filename='tick.png')}}" width="30px" height="30px">';
+            document.getElementById("three").innerHTML = '<img src="{{url_for('static', filename='tick.png')}}" width="30px" height="30px">';
             Display();
         }
         
@@ -66,17 +66,20 @@
        
         var queryString = "";
         window.onload = function(){
+          console.log("pritul")
         if(queryString.length == 0) 
         {
                if(window.location.search.split('?').length > 1)
                {
+                console.log("inside window")
                    var key = decodeURIComponent(window.location.search.split('=')[1]);
                    queryString = queryString + key;
                }
         }
         if(queryString == "1") 
-        {   
+        {   console.log("displau")
             Display1();
+
         }
         if(queryString == "2") 
         {   
