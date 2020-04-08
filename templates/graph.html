@@ -23,21 +23,23 @@
     </style>
       
     <script>
+    
+    $(document).ready(function() {
+         function disablePrev() { window.history.forward() }
+         window.onload = disablePrev();
+         window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
+    });
+    
     function Send()
     {
-        var final_url = "";
-        if( document.getElementById("2").onclick == True)
-        {
-            final_url += {% url 'test' %};
+        var url = "./test.html?name=" + encodeURIComponent('3');
+        document.getElementById("2").onclick = function(){
+            url = "./test.html";
         }
-        else
-        {
-            var url = {% url 'test' %};
-            final_url += url + "?name=" + encodeURIComponent('3');
-        }
-        window.location.href = final_url;
+        window.location.href = url;
         return false;
     }
+        
     </script>
     
 </head>
