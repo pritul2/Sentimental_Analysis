@@ -22,30 +22,30 @@
      
      
   <script>
-      
         $(document).ready(function() {
              function disablePrev() { window.history.forward() }
              window.onload = disablePrev();
              window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
         });
       
-        var queryString = "";
+        var queryString = '{{data}}';
+        console.log(queryString)
         window.onload = function(){
-        if(queryString.length == 0) 
-        {
-               if(window.location.search.split('?').length > 1)
-               {
-                   var key = decodeURIComponent(window.location.search.split('=')[1]);
-                   queryString = queryString + key;
-               }
-        }
-        if(queryString == "1") 
-        {   
+        // if(queryString.length == 0) 
+        // {
+        //        if(window.location.search.split('?').length > 1)
+        //        {
+        //            var key = decodeURIComponent(window.location.search.split('=')[1]);
+        //            queryString = queryString + key;
+        //        }
+        // }
+        if(queryString == "{&#39;username&#39;: &#39;1&#39;}") 
+        {   console.log("jakdfnb")
             document.getElementById("excel").style.display = 'block' ;
             document.getElementById("pageheading").style.display = 'none' ;
             document.getElementById("pagebutton").style.display = 'none' ;
         }
-        if(queryString == "2") 
+        if(queryString == "{&#39;username&#39;: &#39;2&#39;}") 
         {   
             document.getElementById("twitter").style.display = 'block';
             document.getElementById("pageheading").style.display = 'none';
@@ -111,11 +111,13 @@
     <div class="page-header" id="pageheading">
         <h1>Choose Your Option</h1>
     </div> 
-      
+    <form class="form-group"action="button.html" method="post" enctype="multipart/form-data">
     <div align="center" id="pagebutton">
-        <button type="button" class="btn btn-info" id="upload">Upload Your CSV File</button>
-        <button type="button" class="btn btn-info" id="api">Fetch Data From Twiiter</button>
+
+        <input type="submit" class="btn btn-info" name="button_file_upload" value="Upload your CSV"id="upload">
+        <input type="submit" class="btn btn-info" name="twitter_num_button" value="fetch data from Twitter"id="api">
     </div>
+  </form>
         
     <div class="custom-file mb-3" id="excel" style="display: none">    
         <form class="form-group"action="excel.html" method="post" enctype="multipart/form-data">
