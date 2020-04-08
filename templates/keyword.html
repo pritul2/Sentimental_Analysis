@@ -5,6 +5,11 @@
     <title>Select Keywords</title>
      
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    $(document).ready(function() {
+         function disablePrev() { window.history.forward() }
+         window.onload = disablePrev();
+         window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
+      });
 
     
     <!--<link rel="shortcut icon" type="image/png" href="image/shortcut.png">-->
@@ -66,14 +71,16 @@
         <h2>Enter Your Keywords</h2>
         <div class="input-group" style="margin-top: 20px">
           <span class="input-group-addon" id="basic-addon1">@</span>
-          <from class="form-group" action="keyword.html" method="post">
-            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="bottom" title="Please enter keywords starting with '@' and use ',' as seprater." style="width: 90%">
-            <input type="submit" class="btn btn-info" id="submit">
-            </from>
+          <!--<from class="form-group" action="keyword.html" method="post">-->
+            <form action="keyword.html" method="POST">
+            <input type="text" name="fetch_tweet" class="form-control" placeholder="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="bottom" title="Please enter keywords starting with '@' and use ',' as seprater." style="width: 90%">
+            <input type="submit" class="btn btn-info"value="Submit" id="submit">
+        </form>
+            <!--</from>-->
         </div>
     </div>
      
-    <div class="alert alert-info" role="alert" id="alert" style="margin-left: 250px;margin-top: 10px;width:80%"><a href="./test.html?name=2">For futher process please click here</a></div>
+    <div class="alert alert-info" role="alert" id="alert" style="margin-left: 250px;margin-top: 10px;width:80%"><a href="{{url_for ('test')}}?name=2">For futher process please click here</a></div>
  
     <script>
     

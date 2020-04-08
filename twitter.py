@@ -1,11 +1,26 @@
 import tweepy 
-access_key ='****'
-access_secret='***'
-consumer_key = '***'
-consumer_secret = '****'
+from textblob import TextBlob
+import re
+
+
 # Function to extract tweets 
-def get_tweets(username,_size): 
-          
+def clean_tweet(tweet): 
+    ''' 
+    Use sumple regex statemnents to clean tweet text by removing links and special characters
+    '''
+    return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t]) \
+                                |(\w+:\/\/\S+)", " ", tweet).split()) 
+def deEmojify(text):
+    '''
+    Strip all non-ASCII characters to remove emoji characters
+    '''
+    if text:
+        return text.encode('ascii', 'ignore').decode('ascii')
+    else:
+        return None
+def get_tweets(keyword,_size): 
+        print(_size)
+        input("pritul")
         # Authorization to consumer key and consumer secret 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
   
@@ -14,25 +29,29 @@ def get_tweets(username,_size):
   
         # Calling api 
         api = tweepy.API(auth) 
-  
-        # 200 tweets to be extracted 
-        number_of_tweets=_size
-        tweets = api.user_timeline(screen_name=username) 
-  
-        # Empty Array 
-        tmp=[]  
-  
-        # create array of tweet information: username,  
-        # tweet id, date/time, text 
-        tweets_for_csv = [tweet.text for tweet in tweets] # CSV file created  
-        for j in tweets_for_csv: 
-  
-            # Appending tweets to the empty array tmp 
-            tmp.append(j) 
-  
-        return tmp
-  
-  
+        tweet_list = []
+        location_list = []
+        time_stamp = []
+        twitter_user = []
+
+        for tweet in api.search(q=keyword, lang="en", rpp=_size,tweet_mode='extended',count=_size):
+            
+            temp = tweet.entities['user_mentions']
+            if len(temp)<=0 or tweet.user.location==" ":
+                continue
+            name_  = temp[0]['name']
+            time_stamp.append(tweet.created_at)
+            twitter_user.append(name_)
+            text = tweet.full_text
+            clean_text = clean_tweet(text)
+            emojified_text = clean_tweet(clean_text)
+            tweet_list.append(emojified_text)
+            location_list.append(tweet.user.location)
+
+
+        return [time_stamp,location_list,twitter_user,tweet_list]
+
+#get_tweets("sdv",12)
 '''# Driver code 
 if __name__ == '__main__': 
   

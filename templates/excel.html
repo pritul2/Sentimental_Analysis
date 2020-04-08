@@ -22,11 +22,47 @@
      
      
   <script>
-   
-    $(document).ready(function(){
+        $(document).ready(function() {
+             function disablePrev() { window.history.forward() }
+             window.onload = disablePrev();
+             window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
+        });
+      
+        var queryString = '{{data}}';
+        console.log(queryString)
+        window.onload = function(){
+        // if(queryString.length == 0) 
+        // {
+        //        if(window.location.search.split('?').length > 1)
+        //        {
+        //            var key = decodeURIComponent(window.location.search.split('=')[1]);
+        //            queryString = queryString + key;
+        //        }
+        // }
+        if(queryString == "{&#39;username&#39;: &#39;1&#39;}") 
+        {   console.log("jakdfnb")
+            document.getElementById("excel").style.display = 'block' ;
+            document.getElementById("pageheading").style.display = 'none' ;
+            document.getElementById("pagebutton").style.display = 'none' ;
+        }
+        if(queryString == "{&#39;username&#39;: &#39;2&#39;}") 
+        {   
+            document.getElementById("twitter").style.display = 'block';
+            document.getElementById("pageheading").style.display = 'none';
+            document.getElementById("pagebutton").style.display = 'none';
+        }
+        if(queryString == "")
+        {
+            document.getElementById("excel").style.display = 'none' ;
+            document.getElementById("twitter").style.display = 'none';
+        }
+        };
+      
+      
+    /*$(document).ready(function(){
         $("#excel").hide();
         $("#twitter").hide();
-    });
+    });*/
            
     function Send()
     {
@@ -75,30 +111,32 @@
     <div class="page-header" id="pageheading">
         <h1>Choose Your Option</h1>
     </div> 
-      
+    <form class="form-group"action="button.html" method="post" enctype="multipart/form-data">
     <div align="center" id="pagebutton">
-        <button type="button" class="btn btn-info" id="upload">Upload Your CSV File</button>
-        <button type="button" class="btn btn-info" id="api">Fetch Data From Twiiter</button>
+
+        <input type="submit" class="btn btn-info" name="button_file_upload" value="Upload your CSV"id="upload">
+        <input type="submit" class="btn btn-info" name="twitter_num_button" value="fetch data from Twitter"id="api">
     </div>
+  </form>
         
-    <div class="custom-file mb-3" id="excel">    
-        <from class="form-group" action="excel.html" method="post">
+    <div class="custom-file mb-3" id="excel" style="display: none">    
+        <form class="form-group"action="excel.html" method="post" enctype="multipart/form-data">
         
           <label class="custom-file-label" for="customFile"><h2>Upload Your File</h2></label>
-          <input type="file" class="custom-file-input" id="customFile" name="filename">
+          <input type="file" class="custom-file-input" id="customFile" name="fileupload">
 
         <!--<div class="table-responsive">-->
           <br/>
           <div align="center">
                 <input type="submit" value="LoadData" name="load_data" id="load_data" class="btn btn-info">
           </div>
-        </from>
+        </form>
           <br/>
           <div align="center">
                 <button type="button" class="btn btn-info" id="next" onclick="return Send()">Next</button>
           </div>
             
-        </div>
+    </div>
         <br/>
         <div class="table-responsive">
             <div id="table">
@@ -106,26 +144,26 @@
         </div>
   
 
-    <div class="custom-file mb-3" id="twitter">    
-        <from class="form-group" action="excel.html" method="post">
-            <input type="text" name="" id="" class="form-control" placeholder="Enter No. of Tweets" aria-describedby="basic-addon1">
+    <div class="custom-file mb-3" id="twitter" style="display: none">    
+        <form action="tweet.html" class="form-group" method="post">
+            <h1>Enter Twitter Details</h1>
+            <input type="text" class="form-control"name="fetch_tweet_num" placeholder="Enter No. of Tweets" aria-describedby="basic-addon1" style="width:90%">
             <br/>
             <div align="center">
-                <input type="submit" class="btn btn-info" id="" value="submit" name="">
+                <input type="submit" class="btn btn-info" id="new" value="submit">
             </div>
-        </from>
+        </form>
         <br/>
-          <div align="center">
-                <button type="button" class="btn btn-info" id="next" onclick="return Send()">Next</button>
-          </div>
-            
+        <div align="center">
+            <button type="button" class="btn btn-info" id="next"  onclick="return Send()">Next</button>
         </div>
-  </div>
+        </div>
+    </div>
 
      
   <script>
       
-    $("#upload").click(function(){
+    /*$("#upload").click(function(){
        $("#excel").show();
        $("#pageheading").hide();
        $("#pagebutton").hide();
@@ -145,7 +183,7 @@
     
     $("#load_data").click(function(){
         $("#next").show();
-    });
+    });*/
     
     var fil = "";
     
