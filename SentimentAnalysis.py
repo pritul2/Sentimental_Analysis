@@ -38,7 +38,12 @@ def Predict(texts):
 
 def uploaded_file(path):
   df = pd.read_csv(path)
-  print(df.head())
+  df_text = df['text']
+  labels = Predict(df_text)
+  for i,j in zip(df_text,labels):
+    print(i)
+    print("\n\n")
+    print(j)
 
 def fetch_tweets(keyword,num_of_tweets):
   time_stamp,location_list,twitter_user,tweet_list = twitter.get_tweets(keyword,num_of_tweets)
@@ -51,3 +56,5 @@ def fetch_tweets(keyword,num_of_tweets):
     print(i)
     print("\n\n")
     print(j)
+
+#fetch_tweets('modi',10)

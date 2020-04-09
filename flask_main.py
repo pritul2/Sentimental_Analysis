@@ -16,12 +16,12 @@ def excel():
 
 @app.route('/keyword.html', methods=['GET', 'POST'])
 def keyword():
-	data={'username':"2"}
+	data={'username':"23"}
 	if request.method == "POST":
 		global SIZE
 		print(SIZE)
 		input("skjvnksdjvn")
-		if request.form['fetch_tweet']==" ":
+		if len(request.form['fetch_tweet'])==0:
 			return render_template('keyword.html',data=data)
 		SentimentAnalysis.fetch_tweets(request.form['fetch_tweet'],SIZE)
 		return render_template('keyword.html',data=data)

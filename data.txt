@@ -1,0 +1,2214 @@
+{
+    "created_at": "Wed Apr 08 10:14:37 +0000 2020",
+    "id": 1247830197530841088,
+    "id_str": "1247830197530841088",
+    "full_text": "RT @zahidpatka: Bollywood comes together for #MuskurayegaIndia India, PM @narendramodi Ji  lauds the initiative &amp; appreciated the film indu\u2026",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        144
+    ],
+    "entities": {
+        "hashtags": [
+            {
+                "text": "MuskurayegaIndia",
+                "indices": [
+                    45,
+                    62
+                ]
+            }
+        ],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "zahidpatka",
+                "name": "Zahid Patka",
+                "id": 379049835,
+                "id_str": "379049835",
+                "indices": [
+                    3,
+                    14
+                ]
+            },
+            {
+                "screen_name": "narendramodi",
+                "name": "Narendra Modi",
+                "id": 18839785,
+                "id_str": "18839785",
+                "indices": [
+                    73,
+                    86
+                ]
+            }
+        ],
+        "urls": []
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 4016976554,
+        "id_str": "4016976554",
+        "name": "MahaBJPMinority",
+        "screen_name": "MahaBJPMinority",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 437,
+        "friends_count": 62,
+        "listed_count": 6,
+        "created_at": "Sun Oct 25 20:32:30 +0000 2015",
+        "favourites_count": 16524,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 16637,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/658738904405643264/BCBVkRSZ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/658738904405643264/BCBVkRSZ_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Apr 08 07:01:38 +0000 2020",
+        "id": 1247781632922103809,
+        "id_str": "1247781632922103809",
+        "full_text": "Bollywood comes together for #MuskurayegaIndia India, PM @narendramodi Ji  lauds the initiative &amp; appreciated the film industry's efforts to spread positivity during coronavirus crisis.\nhttps://t.co/ZhofHghJmi\n@PMOIndia https://t.co/4NGWOJwOqz",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            223
+        ],
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "MuskurayegaIndia",
+                    "indices": [
+                        29,
+                        46
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "narendramodi",
+                    "name": "Narendra Modi",
+                    "id": 18839785,
+                    "id_str": "18839785",
+                    "indices": [
+                        57,
+                        70
+                    ]
+                },
+                {
+                    "screen_name": "PMOIndia",
+                    "name": "PMO India",
+                    "id": 471741741,
+                    "id_str": "471741741",
+                    "indices": [
+                        214,
+                        223
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/ZhofHghJmi",
+                    "expanded_url": "https://www.indiatoday.in/movies/celebrities/story/bollywood-comes-together-for-muskurayega-india-pm-narendra-modi-lauds-the-initiative-1664185-2020-04-07",
+                    "display_url": "indiatoday.in/movies/celebri\u2026",
+                    "indices": [
+                        190,
+                        213
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 1247781623413665792,
+                    "id_str": "1247781623413665792",
+                    "indices": [
+                        224,
+                        247
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EVECxoTU8AAb7WV.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EVECxoTU8AAb7WV.jpg",
+                    "url": "https://t.co/4NGWOJwOqz",
+                    "display_url": "pic.twitter.com/4NGWOJwOqz",
+                    "expanded_url": "https://twitter.com/zahidpatka/status/1247781632922103809/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 680,
+                            "h": 1154,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 680,
+                            "h": 1154,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 401,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1247781623413665792,
+                    "id_str": "1247781623413665792",
+                    "indices": [
+                        224,
+                        247
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EVECxoTU8AAb7WV.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EVECxoTU8AAb7WV.jpg",
+                    "url": "https://t.co/4NGWOJwOqz",
+                    "display_url": "pic.twitter.com/4NGWOJwOqz",
+                    "expanded_url": "https://twitter.com/zahidpatka/status/1247781632922103809/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 680,
+                            "h": 1154,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 680,
+                            "h": 1154,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 401,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 379049835,
+            "id_str": "379049835",
+            "name": "Zahid Patka",
+            "screen_name": "zahidpatka",
+            "location": "india",
+            "description": "I AM BHARATIYA MUSLIM, Secretary BJP MAHARASHTRA Minority Morcha \nA BJP Passionate Karyakarta  LOVES MY COUNTRY BHARAT &RESPECT MODIJI ,Spots Multibagger Stocks",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 3362,
+            "friends_count": 1063,
+            "listed_count": 81,
+            "created_at": "Sat Sep 24 08:28:33 +0000 2011",
+            "favourites_count": 21739,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 58463,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/848413255630336000/6Zr1b1gX_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/848413255630336000/6Zr1b1gX_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}
+{
+    "created_at": "Wed Apr 08 10:14:36 +0000 2020",
+    "id": 1247830193583960064,
+    "id_str": "1247830193583960064",
+    "full_text": "Lifting Of Corona Lockdown After April 14 Not Possible, Looking At Options: PM Narendra Modi To Opposition https://t.co/lPTAEeyrsc",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        130
+    ],
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/lPTAEeyrsc",
+                "expanded_url": "https://www.fastnation.in/lifting-of-corona-lockdown-after-april-14-not-possible-looking-at-options-pm-narendra-modi-to-opposition/",
+                "display_url": "fastnation.in/lifting-of-cor\u2026",
+                "indices": [
+                    107,
+                    130
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 3014429648,
+        "id_str": "3014429648",
+        "name": "Fast Nation",
+        "screen_name": "fastnation_",
+        "location": "Agartala , Tripura , India ,",
+        "description": "Fast Nation - online New portal &  YouTube Channel part of  news Leader  Weekly Newspaper in Tripura,  India.",
+        "url": "https://t.co/U18AiaXDjM",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/U18AiaXDjM",
+                        "expanded_url": "https://www.fastnation.in/",
+                        "display_url": "fastnation.in",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 601,
+        "friends_count": 857,
+        "listed_count": 6,
+        "created_at": "Mon Feb 09 14:32:49 +0000 2015",
+        "favourites_count": 1753,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 7441,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1111359350302363648/IlyKZOoM_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1111359350302363648/IlyKZOoM_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3014429648/1580501691",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}
+{
+    "created_at": "Wed Apr 08 10:14:33 +0000 2020",
+    "id": 1247830183152726018,
+    "id_str": "1247830183152726018",
+    "full_text": "lord hanuman ji bhakt of sri ramji\nequivalent of modiji -words of bolsonaroji.\nbefore this HOWDY MODI &amp; NAMASTE TRUMP\nand new hanuman got awards from richest MUSLIM COUNTRIES.\naward from Russia.\neveryone appreciate mr.hanuman or modiji &amp; everyone love him except someFUCKING\ud83d\udc37",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        283
+    ],
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1247083516275249153,
+        "id_str": "1247083516275249153",
+        "name": "deshbhakt",
+        "screen_name": "deshbha52255420",
+        "location": "",
+        "description": "Indian-American \nfan of moodie & doland trump or petrol pump .\nalways their\ni am 1/7200000000",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 6,
+        "friends_count": 47,
+        "listed_count": 0,
+        "created_at": "Mon Apr 06 08:47:44 +0000 2020",
+        "favourites_count": 75,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 101,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1247083734873952256/MPjcHu6X_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1247083734873952256/MPjcHu6X_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}
+{
+    "created_at": "Wed Apr 08 10:14:33 +0000 2020",
+    "id": 1247830183064801282,
+    "id_str": "1247830183064801282",
+    "full_text": "RT @Shazeena3641: India\u2019s ministry however claimed that the media was creating unnecessary controversy by linking Modi\u2019s decision to revers\u2026",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        140
+    ],
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "Shazeena3641",
+                "name": "Shazeena364",
+                "id": 1201922193812328450,
+                "id_str": "1201922193812328450",
+                "indices": [
+                    3,
+                    16
+                ]
+            }
+        ],
+        "urls": []
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1203701055823007749,
+        "id_str": "1203701055823007749",
+        "name": "Narmeen Khan",
+        "screen_name": "NarmeenKhan93",
+        "location": "Islamabad, Pakistan",
+        "description": "My hobbies include tweeting and retweeting!!!",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 907,
+        "friends_count": 1344,
+        "listed_count": 2,
+        "created_at": "Sun Dec 08 15:41:21 +0000 2019",
+        "favourites_count": 344,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 22350,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1236374205576417285/cPF9cB4G_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1236374205576417285/cPF9cB4G_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1203701055823007749/1580231821",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Apr 08 10:10:34 +0000 2020",
+        "id": 1247829177505644545,
+        "id_str": "1247829177505644545",
+        "full_text": "India\u2019s ministry however claimed that the media was creating unnecessary controversy by linking Modi\u2019s decision to reverse the export ban with Trump\u2019s remarks.\n#TrumpSayModiObey https://t.co/9ceKrIXzrw",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            177
+        ],
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "TrumpSayModiObey",
+                    "indices": [
+                        160,
+                        177
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1247829143099588608,
+                    "id_str": "1247829143099588608",
+                    "indices": [
+                        178,
+                        201
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EVEt_o7UwAA_EGs.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EVEt_o7UwAA_EGs.jpg",
+                    "url": "https://t.co/9ceKrIXzrw",
+                    "display_url": "pic.twitter.com/9ceKrIXzrw",
+                    "expanded_url": "https://twitter.com/Shazeena3641/status/1247829177505644545/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1024,
+                            "h": 522,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 522,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 347,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1247829143099588608,
+                    "id_str": "1247829143099588608",
+                    "indices": [
+                        178,
+                        201
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EVEt_o7UwAA_EGs.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EVEt_o7UwAA_EGs.jpg",
+                    "url": "https://t.co/9ceKrIXzrw",
+                    "display_url": "pic.twitter.com/9ceKrIXzrw",
+                    "expanded_url": "https://twitter.com/Shazeena3641/status/1247829177505644545/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1024,
+                            "h": 522,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 522,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 347,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1201922193812328450,
+            "id_str": "1201922193812328450",
+            "name": "Shazeena364",
+            "screen_name": "Shazeena3641",
+            "location": "",
+            "description": "first love yourself\u2764\ufe0f Always be positive \ud83e\udd29... follow me \ud83d\udcaf follow back \ud83e\udd70",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 273,
+            "friends_count": 416,
+            "listed_count": 0,
+            "created_at": "Tue Dec 03 17:53:00 +0000 2019",
+            "favourites_count": 4,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 197,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1243468739925798912/C4zC3qJj_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1243468739925798912/C4zC3qJj_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1201922193812328450/1575516252",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}
+{
+    "created_at": "Wed Apr 08 10:14:33 +0000 2020",
+    "id": 1247830182787866626,
+    "id_str": "1247830182787866626",
+    "full_text": "RT @rajtarangini2: Librats Calendar \nFeb : Questioned Attacks\nMar - attacked Modi\nMay - Modi won ,Burnol moment\nAug- 370 , Burnol moment\nSe\u2026",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        140
+    ],
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "rajtarangini2",
+                "name": "Kashmiri Fella \ud804\uddae\ud804\uddb4\ud804\udd91\ud804\uddb3\ud804\uddb1 \ud804\uddab\ud804\uddbd\ud804\udda4\ud804\uddb3 \ud83c\uddee\ud83c\uddf3",
+                "id": 1021281738088099840,
+                "id_str": "1021281738088099840",
+                "indices": [
+                    3,
+                    17
+                ]
+            }
+        ],
+        "urls": []
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 167869266,
+        "id_str": "167869266",
+        "name": "jayant Sharma jay",
+        "screen_name": "jayantsharmaa",
+        "location": "Madhya Pradesh, India",
+        "description": "Senior Physics Faculty,In Education Industry,motivator, poet & writer..\nA Proud Hindu,indian,nationalist and Modi bhakt....",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 504,
+        "friends_count": 437,
+        "listed_count": 16,
+        "created_at": "Sat Jul 17 18:50:48 +0000 2010",
+        "favourites_count": 52822,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 53039,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1211263730010345472/UaE7Y_mR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1211263730010345472/UaE7Y_mR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/167869266/1586057011",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Apr 08 09:44:02 +0000 2020",
+        "id": 1247822502438391809,
+        "id_str": "1247822502438391809",
+        "full_text": "Librats Calendar \nFeb : Questioned Attacks\nMar - attacked Modi\nMay - Modi won ,Burnol moment\nAug- 370 , Burnol moment\nSept - Defended Scammers\nNov - Ayodhya Verdict , attacked CJI\nDec - CAA , created unrest\nJan - JNU + Jamia\nFeb - Defended Rioters\nMar- Covid, Defending Jamat https://t.co/mgNHW9gfAN",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            275
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/mgNHW9gfAN",
+                    "expanded_url": "https://twitter.com/arvindgunasekar/status/1247589804847620097",
+                    "display_url": "twitter.com/arvindgunaseka\u2026",
+                    "indices": [
+                        276,
+                        299
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1021281738088099840,
+            "id_str": "1021281738088099840",
+            "name": "Kashmiri Fella \ud804\uddae\ud804\uddb4\ud804\udd91\ud804\uddb3\ud804\uddb1 \ud804\uddab\ud804\uddbd\ud804\udda4\ud804\uddb3 \ud83c\uddee\ud83c\uddf3",
+            "screen_name": "rajtarangini2",
+            "location": "",
+            "description": "India Moving towards Greatness...\nAkhand Bharat Dreamer. Proud Hindu  \nPersonally Simple, Socially Compatible and Professional Reliable \nHyper Nationalist \ud83c\uddee\ud83c\uddf3",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 942,
+            "friends_count": 381,
+            "listed_count": 3,
+            "created_at": "Mon Jul 23 06:31:55 +0000 2018",
+            "favourites_count": 10189,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 7339,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1220604317104607233/iQ-lLC0E_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1220604317104607233/iQ-lLC0E_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1021281738088099840/1532328330",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1247589804847620097,
+        "quoted_status_id_str": "1247589804847620097",
+        "quoted_status": {
+            "created_at": "Tue Apr 07 18:19:23 +0000 2020",
+            "id": 1247589804847620097,
+            "id_str": "1247589804847620097",
+            "full_text": "GIVE US A BREAK !\n\nFeb 2019: Balakot Air Strike \nMar: LS Polls\nApril: Polls\nMay: Polls \nJune: Congress drama  \nJuly: Karnataka drama\nAug: Art 370\nSept: Chidambaram+DKS arrest\nOct: MH,Haryana polls \nNov: Ayodhya Verdict\nDec: CAA\nJan 2020: JNU+Jamia\nFeb: Delhi riots \nMar: Corona",
+            "truncated": false,
+            "display_text_range": [
+                0,
+                277
+            ],
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 112709207,
+                "id_str": "112709207",
+                "name": "Arvind Gunasekar",
+                "screen_name": "arvindgunasekar",
+                "location": "New Delhi",
+                "description": "Journalist based in Delhi. Masters in International Relations, JNU. RT's are not endorsements.",
+                "url": "https://t.co/f8RUXAO2ty",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/f8RUXAO2ty",
+                                "expanded_url": "https://www.ndtv.com/topic/arvind-gunasekar",
+                                "display_url": "ndtv.com/topic/arvind-g\u2026",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 62597,
+                "friends_count": 1524,
+                "listed_count": 277,
+                "created_at": "Tue Feb 09 13:00:23 +0000 2010",
+                "favourites_count": 7841,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 27918,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "1A1B1F",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1105167216872349696/4E06RUnR_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1105167216872349696/4E06RUnR_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/112709207/1497877906",
+                "profile_link_color": "2FC2EF",
+                "profile_sidebar_border_color": "181A1E",
+                "profile_sidebar_fill_color": "252429",
+                "profile_text_color": "666666",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1310,
+            "favorite_count": 4979,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "in"
+        },
+        "retweet_count": 24,
+        "favorite_count": 43,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1247589804847620097,
+    "quoted_status_id_str": "1247589804847620097",
+    "retweet_count": 24,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}
+{
+    "created_at": "Wed Apr 08 10:14:33 +0000 2020",
+    "id": 1247830180699058176,
+    "id_str": "1247830180699058176",
+    "full_text": "RT @tonyashai: There is Nothing that #Modi can do to #Kashmiris that has not already been done by Dogra Rulers from 1846 to 1946. #Dogras e\u2026",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        140
+    ],
+    "entities": {
+        "hashtags": [
+            {
+                "text": "Modi",
+                "indices": [
+                    37,
+                    42
+                ]
+            },
+            {
+                "text": "Kashmiris",
+                "indices": [
+                    53,
+                    63
+                ]
+            },
+            {
+                "text": "Dogras",
+                "indices": [
+                    130,
+                    137
+                ]
+            }
+        ],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "tonyashai",
+                "name": "Tony Ashai",
+                "id": 83250026,
+                "id_str": "83250026",
+                "indices": [
+                    3,
+                    13
+                ]
+            }
+        ],
+        "urls": []
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 854971543,
+        "id_str": "854971543",
+        "name": "aamir afzal",
+        "screen_name": "aamirafzal4",
+        "location": "#bandipora #IOKashmir ",
+        "description": "",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 55,
+        "friends_count": 150,
+        "listed_count": 0,
+        "created_at": "Sun Sep 30 16:24:28 +0000 2012",
+        "favourites_count": 2889,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1040,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/999866037498593280/3bA1G1QN_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/999866037498593280/3bA1G1QN_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/854971543/1527221616",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Apr 08 08:03:27 +0000 2020",
+        "id": 1247797190245773314,
+        "id_str": "1247797190245773314",
+        "full_text": "There is Nothing that #Modi can do to #Kashmiris that has not already been done by Dogra Rulers from 1846 to 1946. #Dogras eventually finished and #Kashmir Nation is still there.",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            178
+        ],
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Modi",
+                    "indices": [
+                        22,
+                        27
+                    ]
+                },
+                {
+                    "text": "Kashmiris",
+                    "indices": [
+                        38,
+                        48
+                    ]
+                },
+                {
+                    "text": "Dogras",
+                    "indices": [
+                        115,
+                        122
+                    ]
+                },
+                {
+                    "text": "Kashmir",
+                    "indices": [
+                        147,
+                        155
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 83250026,
+            "id_str": "83250026",
+            "name": "Tony Ashai",
+            "screen_name": "tonyashai",
+            "location": "Beverly Hills, CA",
+            "description": "An Architect and a Kashmir Peace Activist.  I Oppose Wars,Militancy, Religious supremacy. Support Freedom,Justice, Right to Protest for Kashmiris. #Freekashmir",
+            "url": "https://t.co/tF1Lra18OL",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/tF1Lra18OL",
+                            "expanded_url": "http://tonyashai.com",
+                            "display_url": "tonyashai.com",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 10930,
+            "friends_count": 245,
+            "listed_count": 42,
+            "created_at": "Sat Oct 17 23:52:25 +0000 2009",
+            "favourites_count": 6391,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 5528,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1246208579238891520/OIkYMrgH_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1246208579238891520/OIkYMrgH_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/83250026/1570415191",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 24,
+        "favorite_count": 151,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 24,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}
+{
+    "created_at": "Wed Apr 08 10:14:32 +0000 2020",
+    "id": 1247830178174099456,
+    "id_str": "1247830178174099456",
+    "full_text": "RT @zahidpatka: #LeadingFromFront  High-level exchanges with world leaders on the phone, PM @narendramodi Ji  discussed the economic fallou\u2026",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        140
+    ],
+    "entities": {
+        "hashtags": [
+            {
+                "text": "LeadingFromFront",
+                "indices": [
+                    16,
+                    33
+                ]
+            }
+        ],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "zahidpatka",
+                "name": "Zahid Patka",
+                "id": 379049835,
+                "id_str": "379049835",
+                "indices": [
+                    3,
+                    14
+                ]
+            },
+            {
+                "screen_name": "narendramodi",
+                "name": "Narendra Modi",
+                "id": 18839785,
+                "id_str": "18839785",
+                "indices": [
+                    92,
+                    105
+                ]
+            }
+        ],
+        "urls": []
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 4016976554,
+        "id_str": "4016976554",
+        "name": "MahaBJPMinority",
+        "screen_name": "MahaBJPMinority",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 437,
+        "friends_count": 62,
+        "listed_count": 6,
+        "created_at": "Sun Oct 25 20:32:30 +0000 2015",
+        "favourites_count": 16524,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 16637,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/658738904405643264/BCBVkRSZ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/658738904405643264/BCBVkRSZ_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Apr 08 07:06:36 +0000 2020",
+        "id": 1247782883898437632,
+        "id_str": "1247782883898437632",
+        "full_text": "#LeadingFromFront  High-level exchanges with world leaders on the phone, PM @narendramodi Ji  discussed the economic fallout of the covid-19 pandemic with his Swedish counterpart Stefan Lofven and Haitham bin Tarik, the Sultan of Oman.\nhttps://t.co/uSsfTAxMz5\n@PMOIndia https://t.co/YMZB7L3Ylm",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            269
+        ],
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "LeadingFromFront",
+                    "indices": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "narendramodi",
+                    "name": "Narendra Modi",
+                    "id": 18839785,
+                    "id_str": "18839785",
+                    "indices": [
+                        76,
+                        89
+                    ]
+                },
+                {
+                    "screen_name": "PMOIndia",
+                    "name": "PMO India",
+                    "id": 471741741,
+                    "id_str": "471741741",
+                    "indices": [
+                        260,
+                        269
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/uSsfTAxMz5",
+                    "expanded_url": "https://www.livemint.com/news/india/modi-discuss-economic-fallout-of-covid-19-crisis-with-swedish-pm-sultan-of-oman-11586266166829.html",
+                    "display_url": "livemint.com/news/india/mod\u2026",
+                    "indices": [
+                        236,
+                        259
+                    ]
+                }
+            ],
+            "media": [
+                {
+                    "id": 1247782874415132673,
+                    "id_str": "1247782874415132673",
+                    "indices": [
+                        270,
+                        293
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EVED6cpUcAEF4H7.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EVED6cpUcAEF4H7.jpg",
+                    "url": "https://t.co/YMZB7L3Ylm",
+                    "display_url": "pic.twitter.com/YMZB7L3Ylm",
+                    "expanded_url": "https://twitter.com/zahidpatka/status/1247782883898437632/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 680,
+                            "h": 1066,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 434,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 680,
+                            "h": 1066,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1247782874415132673,
+                    "id_str": "1247782874415132673",
+                    "indices": [
+                        270,
+                        293
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EVED6cpUcAEF4H7.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EVED6cpUcAEF4H7.jpg",
+                    "url": "https://t.co/YMZB7L3Ylm",
+                    "display_url": "pic.twitter.com/YMZB7L3Ylm",
+                    "expanded_url": "https://twitter.com/zahidpatka/status/1247782883898437632/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 680,
+                            "h": 1066,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 434,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 680,
+                            "h": 1066,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 379049835,
+            "id_str": "379049835",
+            "name": "Zahid Patka",
+            "screen_name": "zahidpatka",
+            "location": "india",
+            "description": "I AM BHARATIYA MUSLIM, Secretary BJP MAHARASHTRA Minority Morcha \nA BJP Passionate Karyakarta  LOVES MY COUNTRY BHARAT &RESPECT MODIJI ,Spots Multibagger Stocks",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 3362,
+            "friends_count": 1063,
+            "listed_count": 81,
+            "created_at": "Sat Sep 24 08:28:33 +0000 2011",
+            "favourites_count": 21739,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 58463,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/848413255630336000/6Zr1b1gX_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/848413255630336000/6Zr1b1gX_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}
+{
+    "created_at": "Wed Apr 08 10:14:32 +0000 2020",
+    "id": 1247830177976946689,
+    "id_str": "1247830177976946689",
+    "full_text": "RT @MhaskarChief: @kshitijsaxena71 @atti_cus Exactly. That's what will happen. Economy tanked because of COVID.\nCOVID happened because of T\u2026",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        140
+    ],
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "MhaskarChief",
+                "name": "Zeeshan Mhaskar",
+                "id": 1141823460,
+                "id_str": "1141823460",
+                "indices": [
+                    3,
+                    16
+                ]
+            },
+            {
+                "screen_name": "kshitijsaxena71",
+                "name": "Kshitij/\u0915\u094d\u0937\u093f\u0924\u093f\u091c",
+                "id": 719771147278118912,
+                "id_str": "719771147278118912",
+                "indices": [
+                    18,
+                    34
+                ]
+            },
+            {
+                "screen_name": "atti_cus",
+                "name": "Dushyant",
+                "id": 242873592,
+                "id_str": "242873592",
+                "indices": [
+                    35,
+                    44
+                ]
+            }
+        ],
+        "urls": []
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 3152248100,
+        "id_str": "3152248100",
+        "name": "Hurmat",
+        "screen_name": "hferozie",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 19,
+        "friends_count": 30,
+        "listed_count": 0,
+        "created_at": "Mon Apr 13 04:27:25 +0000 2015",
+        "favourites_count": 1810,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 4776,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1220715752019365888/Y2ztJ16c_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1220715752019365888/Y2ztJ16c_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Apr 08 06:52:42 +0000 2020",
+        "id": 1247779385362415617,
+        "id_str": "1247779385362415617",
+        "full_text": "@kshitijsaxena71 @atti_cus Exactly. That's what will happen. Economy tanked because of COVID.\nCOVID happened because of Tabligi Jamatis.\nTJ are Muslims.\nSo, whole blame will ultimately fall on Muslims.\nMiddle class is already blaming Muslims, not Modi.",
+        "truncated": false,
+        "display_text_range": [
+            27,
+            252
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "kshitijsaxena71",
+                    "name": "Kshitij/\u0915\u094d\u0937\u093f\u0924\u093f\u091c",
+                    "id": 719771147278118912,
+                    "id_str": "719771147278118912",
+                    "indices": [
+                        0,
+                        16
+                    ]
+                },
+                {
+                    "screen_name": "atti_cus",
+                    "name": "Dushyant",
+                    "id": 242873592,
+                    "id_str": "242873592",
+                    "indices": [
+                        17,
+                        26
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": 1247772590518620161,
+        "in_reply_to_status_id_str": "1247772590518620161",
+        "in_reply_to_user_id": 719771147278118912,
+        "in_reply_to_user_id_str": "719771147278118912",
+        "in_reply_to_screen_name": "kshitijsaxena71",
+        "user": {
+            "id": 1141823460,
+            "id_str": "1141823460",
+            "name": "Zeeshan Mhaskar",
+            "screen_name": "MhaskarChief",
+            "location": "Mangalore | Ratnagiri",
+            "description": "Surgery resident | Science | Gaming | Star Trek",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 4204,
+            "friends_count": 706,
+            "listed_count": 123,
+            "created_at": "Sat Feb 02 08:06:36 +0000 2013",
+            "favourites_count": 6256,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 80766,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "352726",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/841253090913280000/GVXgqWZz_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/841253090913280000/GVXgqWZz_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1141823460/1573843123",
+            "profile_link_color": "D02B55",
+            "profile_sidebar_border_color": "829D5E",
+            "profile_sidebar_fill_color": "99CC33",
+            "profile_text_color": "3E4415",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 22,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}
+{
+    "created_at": "Wed Apr 08 10:14:31 +0000 2020",
+    "id": 1247830174097453057,
+    "id_str": "1247830174097453057",
+    "full_text": "RT @Shazeena3641: Modi has yet again been grilled by Trump\n#TrumpSayModiObey https://t.co/6GTY20Ve8G",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        100
+    ],
+    "entities": {
+        "hashtags": [
+            {
+                "text": "TrumpSayModiObey",
+                "indices": [
+                    59,
+                    76
+                ]
+            }
+        ],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "Shazeena3641",
+                "name": "Shazeena364",
+                "id": 1201922193812328450,
+                "id_str": "1201922193812328450",
+                "indices": [
+                    3,
+                    16
+                ]
+            }
+        ],
+        "urls": [],
+        "media": [
+            {
+                "id": 1247829142936211456,
+                "id_str": "1247829142936211456",
+                "indices": [
+                    77,
+                    100
+                ],
+                "media_url": "http://pbs.twimg.com/media/EVEt_oUX0AAc4yl.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EVEt_oUX0AAc4yl.jpg",
+                "url": "https://t.co/6GTY20Ve8G",
+                "display_url": "pic.twitter.com/6GTY20Ve8G",
+                "expanded_url": "https://twitter.com/Shazeena3641/status/1247829180273831938/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "large": {
+                        "w": 1280,
+                        "h": 1280,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 1200,
+                        "resize": "fit"
+                    },
+                    "small": {
+                        "w": 680,
+                        "h": 680,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 1247829180273831938,
+                "source_status_id_str": "1247829180273831938",
+                "source_user_id": 1201922193812328450,
+                "source_user_id_str": "1201922193812328450"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "id": 1247829142936211456,
+                "id_str": "1247829142936211456",
+                "indices": [
+                    77,
+                    100
+                ],
+                "media_url": "http://pbs.twimg.com/media/EVEt_oUX0AAc4yl.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EVEt_oUX0AAc4yl.jpg",
+                "url": "https://t.co/6GTY20Ve8G",
+                "display_url": "pic.twitter.com/6GTY20Ve8G",
+                "expanded_url": "https://twitter.com/Shazeena3641/status/1247829180273831938/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "large": {
+                        "w": 1280,
+                        "h": 1280,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 1200,
+                        "resize": "fit"
+                    },
+                    "small": {
+                        "w": 680,
+                        "h": 680,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 1247829180273831938,
+                "source_status_id_str": "1247829180273831938",
+                "source_user_id": 1201922193812328450,
+                "source_user_id_str": "1201922193812328450"
+            }
+        ]
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1203701055823007749,
+        "id_str": "1203701055823007749",
+        "name": "Narmeen Khan",
+        "screen_name": "NarmeenKhan93",
+        "location": "Islamabad, Pakistan",
+        "description": "My hobbies include tweeting and retweeting!!!",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 907,
+        "friends_count": 1344,
+        "listed_count": 2,
+        "created_at": "Sun Dec 08 15:41:21 +0000 2019",
+        "favourites_count": 344,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 22350,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1236374205576417285/cPF9cB4G_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1236374205576417285/cPF9cB4G_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1203701055823007749/1580231821",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Apr 08 10:10:34 +0000 2020",
+        "id": 1247829180273831938,
+        "id_str": "1247829180273831938",
+        "full_text": "Modi has yet again been grilled by Trump\n#TrumpSayModiObey https://t.co/6GTY20Ve8G",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            58
+        ],
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "TrumpSayModiObey",
+                    "indices": [
+                        41,
+                        58
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1247829142936211456,
+                    "id_str": "1247829142936211456",
+                    "indices": [
+                        59,
+                        82
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EVEt_oUX0AAc4yl.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EVEt_oUX0AAc4yl.jpg",
+                    "url": "https://t.co/6GTY20Ve8G",
+                    "display_url": "pic.twitter.com/6GTY20Ve8G",
+                    "expanded_url": "https://twitter.com/Shazeena3641/status/1247829180273831938/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1280,
+                            "h": 1280,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1247829142936211456,
+                    "id_str": "1247829142936211456",
+                    "indices": [
+                        59,
+                        82
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EVEt_oUX0AAc4yl.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EVEt_oUX0AAc4yl.jpg",
+                    "url": "https://t.co/6GTY20Ve8G",
+                    "display_url": "pic.twitter.com/6GTY20Ve8G",
+                    "expanded_url": "https://twitter.com/Shazeena3641/status/1247829180273831938/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1280,
+                            "h": 1280,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1201922193812328450,
+            "id_str": "1201922193812328450",
+            "name": "Shazeena364",
+            "screen_name": "Shazeena3641",
+            "location": "",
+            "description": "first love yourself\u2764\ufe0f Always be positive \ud83e\udd29... follow me \ud83d\udcaf follow back \ud83e\udd70",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 273,
+            "friends_count": 416,
+            "listed_count": 0,
+            "created_at": "Tue Dec 03 17:53:00 +0000 2019",
+            "favourites_count": 4,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 197,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1243468739925798912/C4zC3qJj_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1243468739925798912/C4zC3qJj_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1201922193812328450/1575516252",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}

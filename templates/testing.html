@@ -1,34 +1,38 @@
+<!DOCTYPE html>
 <html>
 <head>
      
-  <title>Data Upload</title>
-    
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Keywords</title>
      
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-      
-  <!--<link rel="shortcut icon" type="image/png" href="image/shortcut.png">-->
-    
-  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
     
-  <style>
-    .navbar-header{
-        margin-left:5px;
-        width:100%;
-    }
-  </style>
+    <!--<link rel="shortcut icon" type="image/png" href="image/shortcut.png">-->
+    
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    
+    <style>
+        .navbar-header{
+            margin-left:5px;
+            width:100%;
+        }
+    </style>
      
      
-  <script>
-      
-        $(document).ready(function() {
-             function disablePrev() { window.history.forward() }
-             window.onload = disablePrev();
-             window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
-        });
-      
+   <script>
+       
+    $(document).ready(function() {
+         function disablePrev() { window.history.forward() }
+         window.onload = disablePrev();
+         window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
+    });
+   
+    /*$(document).ready(function(){
+       $("#alert").hide(); 
+    });*/
+       
+    
         var queryString = "";
         window.onload = function(){
         if(queryString.length == 0) 
@@ -41,40 +45,20 @@
         }
         if(queryString == "1") 
         {   
-            document.getElementById("excel").style.display = 'block' ;
-            document.getElementById("pageheading").style.display = 'none' ;
-            document.getElementById("pagebutton").style.display = 'none' ;
-        }
-        if(queryString == "2") 
-        {   
-            document.getElementById("twitter").style.display = 'block';
-            document.getElementById("pageheading").style.display = 'none';
-            document.getElementById("pagebutton").style.display = 'none';
+            document.getElementById("alert").style.display = 'block' ;
         }
         if(queryString == "")
         {
-            document.getElementById("excel").style.display = 'none' ;
-            document.getElementById("twitter").style.display = 'none';
+            document.getElementById("alert").style.display = 'none' ;
         }
-        };
+        };   
+       
+       
       
-      
-    /*$(document).ready(function(){
-        $("#excel").hide();
-        $("#twitter").hide();
-    });*/
-           
-    function Send()
-    {
-        var url = "./test.html?name=" + encodeURIComponent('1');
-        window.location.href = url;
-        return false;
-    }
+   </script>
      
-  </script>
-     
- </head>
- <body>
+</head>
+<body>
   
      
     <!--Navbar starts here-->   
@@ -104,126 +88,29 @@
         </ul>
     </div>
     <!--Sidebar Ends-->
-     
-     
-     
-  <div class="container" style="margin-top: 50px;margin-left: 230px">
-    <div class="page-header" id="pageheading">
-        <h1>Choose Your Option</h1>
-    </div> 
-      
-    <div align="center" id="pagebutton">
-        <button type="button" class="btn btn-info" id="upload">Upload Your CSV File</button>
-        <button type="button" class="btn btn-info" id="api">Fetch Data From Twiiter</button>
-    </div>
-        
-    <div class="custom-file mb-3" id="excel" style="display: none">    
-        <form class="form-group"action="excel.html" method="post" enctype="multipart/form-data">
-        
-          <label class="custom-file-label" for="customFile"><h2>Upload Your File</h2></label>
-          <input type="file" class="custom-file-input" id="customFile" name="fileupload">
-
-        <!--<div class="table-responsive">-->
-          <br/>
-          <div align="center">
-                <input type="submit" value="LoadData" name="load_data" id="load_data" class="btn btn-info">
-          </div>
-        </form>
-          <br/>
-          <div align="center">
-                <button type="button" class="btn btn-info" id="next" onclick="return Send()">Next</button>
-          </div>
-            
-    </div>
-        <br/>
-        <div class="table-responsive">
-            <div id="table">
-            </div>
-        </div>
-  
-
-    <div class="custom-file mb-3" id="twitter" style="display: none">    
-        <form action="tweet.html" class="form-group" method="post">
-            <h1>Enter Twitter Details</h1>
-            <input type="text" class="form-control"name="fetch_tweet_num" placeholder="Enter No. of Tweets" aria-describedby="basic-addon1" style="width:90%">
-            <br/>
-            <div align="center">
-                <input type="submit" class="btn btn-info" id="new" value="submit">
-            </div>
-        </form>
-        <br/>
-        <div align="center">
-            <button type="button" class="btn btn-info" id="next"  onclick="return Send()">Next</button>
-        </div>
-        </div>
-    </div>
-
-     
-  <script>
-      
-    /*$("#upload").click(function(){
-       $("#excel").show();
-       $("#pageheading").hide();
-       $("#pagebutton").hide();
-       $("#next").hide();
-    });
-      
-    $("#api").click(function(){
-       $("#twitter").show();
-       $("#pageheading").hide();
-       $("#pagebutton").hide();
-       $("#next").hide();
-    });
     
-    $("#customFile").click(function(){
-        $("#load_data").show();
-    });
+     
+     
+    <div class="container" style="margin-top: 50px;margin-left: 230px"> 
+        <h2>Enter Your Keywords</h2>
+        <div class="input-group" style="margin-top: 20px">
+          <span class="input-group-addon" id="basic-addon1">@</span>
+          <form class="form-group" method="post">
+            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="bottom" title="Please enter keywords starting with '@' and use ',' as seprater." style="width: 90%">
+            <input type="submit" class="btn btn-info" id="submit">
+        </form>
+        </div>
+    </div>
+     
+    <div class="alert alert-info" role="alert" id="alert" style="margin-left: 250px;margin-top: 10px;width:80%; display: none"><a href="./test.html?name=2">For futher process please click here</a></div>
+ 
+    <script>
     
-    $("#load_data").click(function(){
-        $("#next").show();
+    /*$("#submit").click(function(){
+      $("#alert").show();  
     });*/
-    
-    var fil = "";
-    
-    $('#load_data').click(function(){
-       fil = fil + document.getElementById("customFile").files[0].name;
-       console.log(document.getElementById("customFile").files[0]);
-    });
-    
-    
-    $(document).ready(function(){
-     $('#load_data').click(function(){
-      $.ajax({
-       url:fil,
-       dataType:"text",
-       success:function(data){
-        var data = data.split(/\r?\n|\r/);
-        var table_data = '<table class="table table-bordered table-striped">';
-        for(var count = 0; count<data.length; count++)
-        {
-         var cell_data = data[count].split(",");
-         table_data += '<tr>';
-         for(var cell_count=0; cell_count<cell_data.length; cell_count++)
-         {
-          if(count === 0)
-          {
-           table_data += '<th>'+cell_data[cell_count]+'</th>';
-          }
-          else
-          {
-           table_data += '<td>'+cell_data[cell_count]+'</td>';
-          }
-         }
-         table_data += '</tr>';
-        }
-        table_data += '</table>';
-        $('#table').html(table_data);
-       }
-      });
-     });
-    });
-    
- </script>
-      
+     
+    </script>
+
 </body>
 </html>
