@@ -1,26 +1,31 @@
 <html>
 <head>
-
-<script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
-        
-
     
+   <title>Analysis</title>
+    
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <!--<link rel="shortcut icon" type="image/png" href="image/shortcut.png">-->
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+   <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	
 </head>
-<body>
 
-<div id='mydiv'></div>    
-    
-</body>    
+<body style="background-color: whitesmoke">  
 
-<script>
+<center><h2>Company's Productwise Analysis</h2></center>
 
-var mydiv = document.getElementById('mydiv');
-var data = { x : [ 1,2,3,4,5 ],
-             y : [ 1,2,4,8,16 ]};
-var trace = [data];
-Plotly.plot( mydiv,trace );   
+<div class="well text-center">
+    <div class="col-md-6">
+        <img src="chart1.jpeg" height="500px" width="500px">
+    </div>
+    <div class="col-md-6">
+        <img src="chart2.jpeg" height="500px" width="500px">
+    </div>
+</div>
 
-</script>
-
+</body>
 
 </html>
