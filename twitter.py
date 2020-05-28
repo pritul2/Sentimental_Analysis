@@ -1,7 +1,10 @@
 import tweepy 
 from textblob import TextBlob
 import re
-
+access_key ='1025563697622786048-TdUHAZE6d3UO3tOJfdm4QgWbKHt2xw'
+access_secret='Y1tfYG2QipeV4oNGmOjCAinyhprrGjzJwSxknfvgG8MEU'
+consumer_key = 'ySnXmMkdA3OyhdYqfKepYTpIR'
+consumer_secret = 'sU1wZGkukA2JzANEFd0EZZx2AGm04fMzGv1E9YmRmqegbuhJaL'
 
 # Function to extract tweets 
 def clean_tweet(tweet): 
@@ -18,9 +21,22 @@ def deEmojify(text):
         return text.encode('ascii', 'ignore').decode('ascii')
     else:
         return None
+def cleanTxt(text):
+    text = re.sub('@[A-Za-z0–9]+', '', text) #Removing @mentions
+    text = re.sub('#', '', text) # Removing '#' hash tag
+    text = re.sub('RT[\s]+', '', text) # Removing RT
+    text = re.sub('https?:\/\/\S+', '', text) # Removing hyperlink
+     
+    return text
+
+def getSubjectivity(text):
+    return TextBlob(text).sentiment.subjectivity
+
+def getPolarity(text):
+    return  TextBlob(text).sentiment.polarity
+
 def get_tweets(keyword,_size): 
         print(_size)
-        input("pritul")
         # Authorization to consumer key and consumer secret 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
   
@@ -33,6 +49,8 @@ def get_tweets(keyword,_size):
         location_list = []
         time_stamp = []
         twitter_user = []
+        subjectivity = []
+        polarity = []
 
         for tweet in api.search(q=keyword, lang="en", rpp=_size,tweet_mode='extended',count=_size):
             
@@ -44,12 +62,18 @@ def get_tweets(keyword,_size):
             twitter_user.append(name_)
             text = tweet.full_text
             clean_text = clean_tweet(text)
+            clean_text = cleanTxt(clean_text)
             emojified_text = clean_tweet(clean_text)
+
+            subjectivity.append(getSubjectivity(emojified_text))
+            polarity.append(getPolarity(emojified_text))
+            subjectivity.append(getSubjectivity(emojified_text))
+
+
             tweet_list.append(emojified_text)
             location_list.append(tweet.user.location)
 
-
-        return [time_stamp,location_list,twitter_user,tweet_list]
+        return [time_stamp,location_list,twitter_user,subjectivity,polarity,tweet_list]
 
 #get_tweets("sdv",12)
 '''# Driver code 

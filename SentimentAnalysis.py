@@ -8,6 +8,7 @@ import string
 import nltk
 import twitter
 import pandas as pd
+import os
 
 def preprocess_texts(texts):
   preprocessed_text = []
@@ -46,12 +47,18 @@ def uploaded_file(path):
     print(j)
 
 def fetch_tweets(keyword,num_of_tweets):
-  time_stamp,location_list,twitter_user,tweet_list = twitter.get_tweets(keyword,num_of_tweets)
-  print("successfuly obtained tweets")
+  time_stamp,location_list,twitter_user,subjectivity,polarity,tweet_list = twitter.get_tweets(keyword,num_of_tweets)
+  print("[INFO] successfuly obtained tweets")
   prep_text = preprocess_texts(tweet_list)
   labels = Predict(prep_text)
-  df = pd.DataFrame(list(zip(time_stamp,location_list,twitter_user,tweet_list, labels)), columns =['time_stamp','location','user name','text', 'val'])
+  df = pd.DataFrame(list(zip(time_stamp,location_list,twitter_user,prep_text,subjectivity,polarity, labels)), columns =['time_stamp','location','user name','text','Polarity','Subjectivity','Sentiments'])
+  os.system('rm file.csv')
+  os.system('rm temp.csv')
+
+  df.to_csv('temp.csv',index=False)
   df.to_csv('file.csv',index=False)
+  print("file is written")
+  input()
   for i,j in zip(tweet_list,labels):
     print(i)
     print("\n\n")
