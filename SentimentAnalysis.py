@@ -38,7 +38,13 @@ def Predict(texts):
   return labels
 
 def uploaded_file(path):
+  if str(path)[-3::] !=  "csv":
+    print(path[-3::])
+    print("Incorrect file")
+    input()
   df = pd.read_csv(path)
+  os.system('rm temp.csv')
+  df.to_csv('temp.csv',index=False)
   df_text = df['text']
   labels = Predict(df_text)
   for i,j in zip(df_text,labels):
@@ -58,7 +64,6 @@ def fetch_tweets(keyword,num_of_tweets):
   df.to_csv('temp.csv',index=False)
   df.to_csv('file.csv',index=False)
   print("file is written")
-  input()
   for i,j in zip(tweet_list,labels):
     print(i)
     print("\n\n")
