@@ -13,3 +13,6 @@ python flask_main.py
 
 <img width="1440" alt="Screenshot 2020-04-19 at 11 37 42 AM" src="https://user-images.githubusercontent.com/41751718/83233219-06473c00-a1ac-11ea-933d-ea8b170dacf3.png">
 <img width="1440" alt="Screenshot 2020-04-19 at 11 37 31 AM" src="https://user-images.githubusercontent.com/41751718/83233220-07786900-a1ac-11ea-9342-2fe8c6198e2c.png">
+
+
+<img width="1440" alt="Untitled 2" src="https://user-images.githubusercontent.com/41751718/83233537-79e94900-a1ac-11ea-9743-04c86b5d22e1.png">
