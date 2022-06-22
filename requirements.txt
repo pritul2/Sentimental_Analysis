@@ -31,7 +31,7 @@ mkl-service==2.3.0
 more-itertools==8.3.0
 murmurhash==1.0.2
 nltk==3.5
-numpy==1.18.4
+numpy==1.22.0
 oauthlib==3.1.0
 ordered-set==3.1.1
 ordered-set-stubs==0.1.3
